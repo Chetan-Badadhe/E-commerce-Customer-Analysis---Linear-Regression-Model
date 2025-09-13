@@ -1,35 +1,12 @@
-# E-commerce-Customer-Analysis---Linear-Regression-Model
-This project uses a Linear Regression model to predict annual customer spending based on features like time on app/website, income, and membership length. Key insights show mobile app usage and membership duration strongly influence spending, helping optimize marketing strategies.
-
-Project Overview
+Linear Regression Training Project: Ecommerce Clients
 In this project, we suppose that the company is trying to decide whether to focus their efforts on their mobile app experience or their website. We are here to help them make a data-driven decision.
 
-
 Dataset Overview
-Avg. Session Length: The average time (in minutes) a customer spends per session.
-Time on App: The total time (in minutes) a customer spends using the mobile application before making a purchase.
-Time on Website: The total time (in minutes) a customer spends browsing the website before making a purchase.
-Length of Membership: The duration of the customer’s membership in the store.
-Yearly Amount Spent: The total amount spent by the customer on the platform.
+Avg. Session Length: Average session length of in-store style advice sessions. Time on App: Average time spent on App in minutes Time on Website: Average time spent on Website in minutes Length of Membership: How many years has the customer been a member? Yearly Amount Spent: The total amount the customer spends on the platform.
 
+To understand customer behavior, we used the following visualizations:
 
-Libraries Used:
+Jointplot: Analyzes the relationship between two variables. Pairplot: Shows relationships between multiple variables using pairwise scatter plots. LMplot (Linear Model Plot): Displays linear regression lines for different groups.
 
-pandas → Data manipulation and preprocessing
-
-NumPy → Numerical computations
-
-matplotlib.pyplot → Data visualization
-
-seaborn → Advanced statistical plotting
-
-sklearn → Linear Regression model & evaluation metrics
-
-
-Graphs Used:
-
-Jointplot
-Pairplot
-Scatterplot
-lmplot
-histplot
+Conclusion
+Our analysis revealed that customers tend to spend more time using the mobile app but do not make as many purchases compared to the website. This suggests that the online store may have usability issues, such as a lack of a seamless purchase process, which could be affecting conversions. Improvements in the website’s design and user experience might help increase sales and customer engagement.
